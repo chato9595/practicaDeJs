@@ -1,4 +1,4 @@
-const numA= parseInt(prompt("ingrese un numero entero"));
+const numA= Number(prompt("ingrese un numero "));
 
 if (numA % 2 === 0){
 console.log("El numero ingresado es divisible por 2")

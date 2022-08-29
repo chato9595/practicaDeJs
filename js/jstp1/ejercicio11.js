@@ -1,4 +1,4 @@
-const num = parseInt(prompt("ingrese un numero entero"));
+const num = Number(prompt("ingrese un numero"));
 
 if (num % 2 === 0 && num % 3 === 0 && num % 5 === 0 && num % 7 === 0) {
   console.log("el numero ingresado es divisible por 2, 3, 5 y 7");
